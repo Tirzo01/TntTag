@@ -19,7 +19,7 @@ public class Database {
 	private Database() {
 		this.url = "jdbc:mysql://localhost:3306/HideWars";
 		this.username = "admin";
-		this.password = "HwHideWarsTiAlek99";
+		this.password = "PASSWORD_HERE";
 		this.tableName = "HidePlayers";
 	}
 	
