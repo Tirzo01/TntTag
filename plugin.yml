@@ -1,0 +1,6 @@
+name: TntTag
+author: Niko_Ox
+version: 1.0
+api-version: 1.15
+main: it.niko.Main
+commands:

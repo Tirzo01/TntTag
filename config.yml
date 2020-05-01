@@ -1,0 +1,16 @@
+active_game: false
+players_needed_to_start: 2
+lobbyspawn:
+   world: "world"
+   x: 0
+   y: 0
+   z: 0
+   yaw: 0
+   pitch: 0
+gamespawn:
+   world: "gameworld"
+   x: 0
+   y: 0
+   z: 0
+   yaw: 0
+   pitch: 0
