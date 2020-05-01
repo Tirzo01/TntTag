@@ -246,7 +246,6 @@ public class Game implements Listener {
 	public void end() {
 		stopRoundTask();
 		this.playersInGame.clear();
-		this.matchStarted = false;
 		this.bossbar.removeAll();
 		this.bossbar = null;
 		this.TntPlayer = null;
@@ -256,6 +255,7 @@ public class Game implements Listener {
 		new BukkitRunnable() {
 		     @Override
 			public void run() {
+				this.matchStarted = false;
 				canGiveExp = false;
 				playersGivenExp.clear();
 				Connector conn = new Connector();
